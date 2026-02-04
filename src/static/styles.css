@@ -162,14 +162,39 @@ footer {
 
 .participants ul {
   margin: 0;
-  padding-left: 18px;
-  list-style-type: disc;
+  padding-left: 0;
+  list-style-type: none;
   font-size: 14px;
   color: #333;
 }
 
 .participants li {
   margin-bottom: 6px;
+}
+
+.participant-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background: #ffebee;
+}
+
+.delete-btn:focus {
+  outline: 2px solid #ffcdd2;
 }
 
 .participants li.muted {
