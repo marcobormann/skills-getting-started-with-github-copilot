@@ -142,3 +142,62 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: linear-gradient(180deg, #ffffff, #fbfbff);
+  border: 1px solid #e6e8ff;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(18, 24, 52, 0.03);
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.participants h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #303f9f;
+}
+
+.participants ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+  font-size: 14px;
+  color: #333;
+}
+
+.participants li {
+  margin-bottom: 6px;
+}
+
+.participant-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background: #ffebee;
+}
+
+.delete-btn:focus {
+  outline: 2px solid #ffcdd2;
+}
+
+.participants li.muted {
+  color: #777;
+  font-style: italic;
+}
